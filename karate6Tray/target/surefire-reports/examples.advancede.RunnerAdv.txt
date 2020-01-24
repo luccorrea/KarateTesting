@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: examples.advancede.RunnerAdv
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.421 sec <<< FAILURE!
+[1:10] criar e recuperar novo usuario([first])  Time elapsed: 0.036 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: -unknown-:6 - javascript evaluation failed: response[0], ReferenceError: "response" is not defined in <eval> at line number 1
+	at ?.* def first = response[0] (-unknown-:6)
+
+[2:18] geting one of the users([first])  Time elapsed: 0.002 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: -unknown-:6 - javascript evaluation failed: response[0], ReferenceError: "response" is not defined in <eval> at line number 1
+	at ?.* def first = response[0] (-unknown-:6)
+
